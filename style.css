@@ -1,0 +1,47 @@
+body{
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif, ubuntu;
+    background-color: rgba(127, 255, 212, 0.292);
+    color: black;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.image{
+    width: 250px;
+    height: fit-content;
+    border-radius: 45%;
+    margin-left: 25px;
+    margin-top: 20px;
+    
+}
+
+.container{
+    display: flex;
+    flex: content;
+    justify-content: center;
+   }
+
+.aboutme{
+    margin-left: 20px;
+    margin-top: 100px;
+    width: auto;
+    line-height: 35px;
+    font-size: 25px;
+}
+
+input{
+    margin-bottom: 12px;
+    border-radius: 8px;
+    width: 300px;
+    height: 30px;
+}
+
+label{
+    color: black;
+    font-style: inherit;
+    display: flex;
+    flex-direction: column;
+    flex-grow: inherit;
+    font-size: 20px;
+}
